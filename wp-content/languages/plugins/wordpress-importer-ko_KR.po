@@ -1,0 +1,196 @@
+# Translation of Plugins - WordPress Importer - Stable (latest release) in Korean
+# This file is distributed under the same license as the Plugins - WordPress Importer - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-05-05 01:52:52+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha\n"
+"Language: ko_KR\n"
+"Project-Id-Version: Plugins - WordPress Importer - Stable (latest release)\n"
+
+#: parsers/class-wxr-parser.php:43
+msgid "Details are shown above. The importer will now try again with a different parser..."
+msgstr "상세정보가 위에 있습니다. 가져오기는 다른 parser를 사용하여 다시 시도할 것입니다."
+
+#: parsers/class-wxr-parser-simplexml.php:29
+#: parsers/class-wxr-parser-simplexml.php:37 parsers/class-wxr-parser.php:42
+msgid "There was an error when reading this WXR file"
+msgstr "이 WXR 파일을 읽는데 에러가 발생했습니다."
+
+#: parsers/class-wxr-parser-regex.php:96 parsers/class-wxr-parser-xml.php:48
+#: parsers/class-wxr-parser-simplexml.php:41
+#: parsers/class-wxr-parser-simplexml.php:46
+msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr "이것은 WXR 파일이 아닌 것 같습니다. WXR 버전 번호가 없거나 유효하지 않습니다."
+
+#: class-wp-import.php:106 class-wp-import.php:115 class-wp-import.php:166
+#: class-wp-import.php:170 class-wp-import.php:179
+msgid "Sorry, there has been an error."
+msgstr "죄송합니다. 에러가 발생했습니다."
+
+#: class-wp-import.php:107
+msgid "The file does not exist, please try again."
+msgstr "파일이 존재하지 않습니다. 다시 시도해 주세요."
+
+#: class-wp-import.php:150
+msgid "All done."
+msgstr "모두 완료됨."
+
+#: class-wp-import.php:151
+msgid "Remember to update the passwords and roles of imported users."
+msgstr "가져오는 사용자의 비밀번호와 역할을 꼭 업데이트 하세요."
+
+#: class-wp-import.php:150
+msgid "Have fun!"
+msgstr "이제 즐기세요."
+
+#: class-wp-import.php:187
+msgid "This WXR file (version %s) may not be supported by this version of the importer. Please consider updating."
+msgstr "WXR 파일 (버전 %s)은 현재의 가져오기 버전이 지원하지 않습니다. 업데이트를 고려해 보세요. "
+
+#: class-wp-import.php:212
+msgid "Failed to import author %s. Their posts will be attributed to the current user."
+msgstr "글쓴이 %s를 가져오는데 실패했습니다. 그 글들은 현재 사용자의 글로 분류될 것입니다."
+
+#: class-wp-import.php:238
+msgid "Assign Authors"
+msgstr "글쓴이 배정"
+
+#: class-wp-import.php:241
+msgid "If a new user is created by WordPress, a new password will be randomly generated and the new user&#8217;s role will be set as %s. Manually changing the new user&#8217;s details will be necessary."
+msgstr "새 사용자가 워드프레스에 의해 생성된 것이라면 새 비밀번호가 무작위로 생성될 것이며 새 사용자의 역할은 %s로 설정될 것입니다. 새 사용자의 상세 정보를 수동으로 변경해야 합니다."
+
+#: class-wp-import.php:251
+msgid "Import Attachments"
+msgstr "첨부 가져오기"
+
+#: class-wp-import.php:254
+msgid "Download and import file attachments"
+msgstr "첨부 파일 내려받기와 가져오기"
+
+#: class-wp-import.php:258
+msgid "Submit"
+msgstr "제출하기"
+
+#: class-wp-import.php:271
+msgid "Import author:"
+msgstr "가져오기 글쓴이:"
+
+#: class-wp-import.php:286
+msgid "as a new user:"
+msgstr "새 사용자로:"
+
+#: class-wp-import.php:283
+msgid "or create new user with login name:"
+msgstr "또는 로그인 이름으로 새 사용자를 생성하세요:"
+
+#: class-wp-import.php:296
+msgid "assign posts to an existing user:"
+msgstr "기존의 사용자에게 글을 배정함:"
+
+#: class-wp-import.php:306
+msgid "- Select -"
+msgstr "- 선택 -"
+
+#: class-wp-import.php:298
+msgid "or assign posts to an existing user:"
+msgstr "또는 기존의 사용자에게 글이 배정됩니다:"
+
+#: class-wp-import.php:360
+msgid "Failed to create new user for %s. Their posts will be attributed to the current user."
+msgstr "%s에 대해 새 사용자를 생성하는데 실패했습니다. 그 글들은 현재 사용자로 배정될 것입니다."
+
+#: class-wp-import.php:457
+msgid "Failed to import post tag %s"
+msgstr "%s 글 태그를 가져오는데 실패함"
+
+#: class-wp-import.php:412
+msgid "Failed to import category %s"
+msgstr "카테고리 %s를 가져오는데 실패함"
+
+#: class-wp-import.php:512 class-wp-import.php:738
+msgid "Failed to import %s %s"
+msgstr "%s %s를 가져오는데 실패함"
+
+#: class-wp-import.php:605
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr "&#8220;%s&#8221;를 가져오는데 실패함: 유효하지 않는 글 형식 %s"
+
+#: class-wp-import.php:878
+msgid "Menu item skipped due to missing menu slug"
+msgstr "존재하지 않는 메뉴 슬러그로 인해 메뉴 항목은 생략됨"
+
+#: class-wp-import.php:704
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr "%s &#8220;%s&#8221;를 가져오는데 실패함"
+
+#: class-wp-import.php:642
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr "%s &#8220;%s&#8221; 이미 존재함"
+
+#: class-wp-import.php:885
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr "유효하지 않는 메뉴 슬러그로 인해 메뉴항목이 생략됐습니다: %s"
+
+#: class-wp-import.php:948
+msgid "Fetching attachments is not enabled"
+msgstr "첨부 가져오기가 불가능합니다."
+
+#: class-wp-import.php:961
+msgid "Invalid file type"
+msgstr "유효하지 않는 파일 형식"
+
+#: class-wp-import.php:1047
+msgid "Remote server did not respond"
+msgstr "원격 서버가 반응하지 않습니다."
+
+#: class-wp-import.php:1065
+msgid "Remote file is too large, limit is %s"
+msgstr "원격 파일이 너무 큽니다. %s로 제한됩니다."
+
+#: class-wp-import.php:1054
+msgid "Zero size file downloaded"
+msgstr "0 크기의 파일이 다운로드 됐습니다."
+
+#: class-wp-import.php:1231
+msgid "A new version of this importer is available. Please update to version %s to ensure compatibility with newer export files."
+msgstr "이 가져오기의 새로운 버전이 가능합니다. 새로운 내보내기 버전과 호환될 수 있도록 버전 %s로 업데이트 하세요."
+
+#: class-wp-import.php:1224
+msgid "Import WordPress"
+msgstr "워드프레스 가져오기"
+
+#: class-wp-import.php:1246
+msgid "Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import the posts, pages, comments, custom fields, categories, and tags into this site."
+msgstr "안녕하세요!  WordPress eXtended RSS (WXR) 파일을 업로드 하면 글, 페이지, 댓글, 사용자 정의 필드, 카테고리, 태그를 이 사이트로 가져올 것입니다."
+
+#: class-wp-import.php:1247
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr "업로드 할 WXR (.xml)파일을 선택하세요. 그런 다음 업로드후 가져오기를 클릭하세요."
+
+#: wordpress-importer.php:58
+msgid "Import <strong>posts, pages, comments, custom fields, categories, and tags</strong> from a WordPress export file."
+msgstr "<strong>글, 페이지, 댓글, 사용자 정의 필드, 카테고리, 태그</strong>를 워드프레스 내보내기 파일에서 가져오기"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/wordpress-importer/"
+msgstr "https://wordpress.org/plugins/wordpress-importer/"
+
+#. Plugin Name of the plugin
+msgid "WordPress Importer"
+msgstr "워드프레스 가져오기 도구"
+
+#. Description of the plugin
+msgid "Import posts, pages, comments, custom fields, categories, tags and more from a WordPress export file."
+msgstr "워드프레스 내보내기 파일에서 글, 페이지, 댓글, 사용자 정의 필드, 카테고리, 태그, 등을 가져올 수 있습니다. "
+
+#. Author of the plugin
+msgid "wordpressdotorg"
+msgstr "wordpressdotorg"
+
+#. Author URI of the plugin
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"

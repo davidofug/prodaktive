@@ -1,0 +1,957 @@
+# Translation of Plugins - User Role Editor - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - User Role Editor - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-10-27 02:11:55+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - User Role Editor - Stable (latest release)\n"
+
+#: includes/classes/editor.php:1253
+msgid "There are no roles for deletion"
+msgstr "削除する権限グループがありません"
+
+#: includes/classes/capability.php:86
+msgid "Wrong Request"
+msgstr "不正なリクエスト"
+
+#: includes/classes/editor.php:1281
+msgid "Wrong role ID"
+msgstr "不正な権限グループ ID"
+
+#: includes/classes/grant-roles.php:448
+msgid "Add"
+msgstr "追加"
+
+#: includes/classes/grant-roles.php:455
+msgid "Revoke"
+msgstr "取消"
+
+#: includes/classes/grant-roles.php:443 includes/classes/grant-roles.php:445
+msgid "Add role&hellip;"
+msgstr "権限グループを追加"
+
+#: includes/classes/grant-roles.php:450 includes/classes/grant-roles.php:452
+msgid "Revoke role&hellip;"
+msgstr "権限グループを取り消し"
+
+#: includes/classes/editor.php:1223
+msgid "Role does not exist"
+msgstr "この権限グループは存在しません"
+
+#: includes/classes/editor.php:1324
+msgid "Wrong request. Default role can not be empty"
+msgstr "不正なリクエストです。デフォルト権限グループを空にすることはできません"
+
+#: includes/classes/editor.php:1227
+msgid "You can not delete role"
+msgstr "権限グループを削除することはできません"
+
+#: includes/classes/capability.php:54
+msgid "Error: this word is used by WordPress as a role ID"
+msgstr "エラー: この単語は、WordPress によって権限グループ ID として使用されます"
+
+#: includes/classes/editor.php:234
+msgid "Wrong request!"
+msgstr "不正なリクエストです。"
+
+#: includes/settings-template.php:42
+msgid "Tools"
+msgstr "ツール"
+
+#: includes/classes/view.php:320
+msgid "Total"
+msgstr "合計"
+
+#: includes/classes/view.php:320
+msgid "Group"
+msgstr "グループ"
+
+#: includes/classes/user-role-editor.php:796
+msgid "DANGER!"
+msgstr "危険!"
+
+#: includes/classes/user-role-editor.php:747
+#: includes/classes/user-role-editor.php:794
+msgid "No"
+msgstr "いいえ"
+
+#: includes/classes/user-role-editor.php:746
+#: includes/classes/user-role-editor.php:793
+msgid "Yes"
+msgstr "はい"
+
+#: includes/classes/user-role-editor.php:745
+#: includes/classes/user-role-editor.php:792
+msgid "Confirm"
+msgstr "確認"
+
+#: includes/classes/capabilities-groups-manager.php:123
+msgid "Deprecated"
+msgstr "非推奨"
+
+#: includes/settings-template.php:107
+msgid "columns"
+msgstr "カラム"
+
+#: includes/classes/view.php:339
+msgid "Columns:"
+msgstr "列:"
+
+#: includes/classes/tools.php:19
+msgid "WARNING!"
+msgstr "警告"
+
+#: includes/classes/screen-help.php:25 includes/settings-template.php:86
+msgid "Confirm role update"
+msgstr "アクセス権の更新を確認"
+
+#: includes/classes/capability.php:47
+msgid "Error: this capability is used internally by WordPress"
+msgstr "エラー: この権限は WordPress の内部で使用されています"
+
+#: includes/classes/grant-roles.php:441
+msgid "Grant Roles"
+msgstr "権限グループの付与"
+
+#: includes/classes/view.php:320
+msgid "Granted"
+msgstr "付与"
+
+#: includes/classes/view.php:336
+msgid "Granted Only"
+msgstr "付与のみ"
+
+#: includes/classes/role-additional-options.php:53
+msgid "Hide admin bar"
+msgstr "管理バーを非表示"
+
+#: includes/classes/grant-roles.php:310
+msgid "Invalid primary role"
+msgstr "無効なメインの権限グループ"
+
+#: includes/classes/grant-roles.php:296 includes/classes/grant-roles.php:342
+msgid "Not enough permissions"
+msgstr "十分な権限がありません"
+
+#: includes/classes/grant-roles.php:398
+msgid "Other Roles: "
+msgstr "その他の権限グループ: "
+
+#: includes/classes/grant-roles.php:378
+msgid "Primary Role: "
+msgstr "メインの権限グループ:"
+
+#: includes/classes/tools.php:36
+msgid "Reset Roles to its original state"
+msgstr "権限グループを元の状態にリセット"
+
+#: includes/classes/grant-roles.php:489
+msgid "Select role(s) which you wish to grant!"
+msgstr "付与する権限グループを選択してください。"
+
+#: includes/classes/grant-roles.php:488
+msgid "Select users to which you wish to grant roles!"
+msgstr "権限グループを付与するユーザーを選択してください。"
+
+#: includes/classes/user-view.php:59
+msgid "Switch&nbsp;To"
+msgstr "切り替え:"
+
+#: includes/classes/capability.php:202 includes/classes/capability.php:207
+msgid "There are no capabilities available for deletion!"
+msgstr "削除できる権限はありません。"
+
+#: includes/classes/view.php:289
+msgid "Working..."
+msgstr "作業中..."
+
+#: includes/classes/grant-roles.php:349
+msgid "Wrong request, valid user ID was missed"
+msgstr "不正なリクエスト。有効なユーザー ID が見つかりません"
+
+#: includes/classes/capability.php:217
+msgid "capabilities were removed successfully"
+msgstr "権限を削除しました"
+
+#: includes/classes/user-role-editor.php:294
+msgid "To:"
+msgstr "変更先:"
+
+#: includes/classes/tools.php:60
+msgid "Tools: Reset: User Roles were initialized"
+msgstr "ツール: リセット: User Roles を初期化しました"
+
+#: includes/classes/grant-roles.php:355
+msgid "Requested user does not exist"
+msgstr "リクエストされたユーザーが見つかりません"
+
+#: includes/classes/grant-roles.php:332
+msgid "Roles were granted to users successfully"
+msgstr "ユーザーに権限グループを付与しました"
+
+#: includes/classes/grant-roles.php:487
+msgid "Grant roles to selected users"
+msgstr "選択したユーザーに権限グループを付与"
+
+#: includes/classes/role-additional-options.php:113
+msgid "Additional Options"
+msgstr "追加設定"
+
+#: includes/classes/capabilities-groups-manager.php:117
+msgid "Users"
+msgstr "ユーザー"
+
+#: includes/classes/capabilities-groups-manager.php:116
+msgid "Plugins"
+msgstr "プラグイン"
+
+#: includes/classes/capabilities-groups-manager.php:115
+msgid "Pages"
+msgstr "固定ページ"
+
+#: includes/classes/capabilities-groups-manager.php:114
+msgid "Posts"
+msgstr "投稿"
+
+#: includes/classes/capabilities-groups-manager.php:113
+msgid "Themes"
+msgstr "テーマ"
+
+#: includes/classes/capabilities-groups-manager.php:110
+msgid "All"
+msgstr "すべて"
+
+#: includes/classes/capabilities-groups-manager.php:90
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: includes/classes/capabilities-groups-manager.php:44
+msgid "Custom Post Types"
+msgstr "カスタム投稿タイプ"
+
+#: includes/classes/capabilities-groups-manager.php:91
+#: includes/classes/capabilities-groups-manager.php:111
+msgid "Core"
+msgstr "コア"
+
+#: includes/classes/user-role-editor.php:494
+#: includes/classes/user-role-editor.php:507
+msgid "Settings"
+msgstr "設定"
+
+#: includes/classes/user-other-roles.php:245
+msgid "Edit"
+msgstr "編集"
+
+#: includes/settings-template.php:121 includes/settings-template.php:156
+#: includes/settings-template.php:188 includes/settings-template.php:220
+msgid "Save"
+msgstr "保存"
+
+#: includes/classes/user-role-editor.php:758
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: includes/classes/user-role-editor.php:748
+msgid "Update"
+msgstr "更新"
+
+#: includes/classes/editor.php:1561
+msgid "Import"
+msgstr "インポート"
+
+#: includes/classes/editor.php:236
+msgid "Role"
+msgstr "権限グループ"
+
+#: includes/classes/role-view.php:75
+msgid "None"
+msgstr "なし"
+
+#: includes/classes/tools.php:36 includes/classes/user-role-editor.php:795
+msgid "Reset"
+msgstr "リセット"
+
+#: includes/classes/capabilities-groups-manager.php:121
+#: includes/classes/user-role-editor.php:561 includes/settings-template.php:36
+msgid "Multisite"
+msgstr "マルチサイト"
+
+#: includes/classes/user-other-roles.php:238
+#: includes/classes/user-role-editor.php:396
+msgid "Capabilities"
+msgstr "権限"
+
+#: includes/classes/lib.php:388
+msgid "FAQ"
+msgstr "FAQ"
+
+#: includes/classes/capabilities-groups-manager.php:112
+#: includes/classes/user-role-editor.php:543 includes/settings-template.php:20
+msgid "General"
+msgstr "一般"
+
+#: includes/settings-template.php:46
+msgid "About"
+msgstr "紹介"
+
+#: includes/classes/editor.php:1562
+msgid "Unfiltered html"
+msgstr "フィルタリングされていない HTML"
+
+#: includes/classes/editor.php:234 includes/classes/editor.php:236
+msgid "Error: "
+msgstr "エラー: "
+
+#. Plugin Name of the plugin
+#: includes/classes/capabilities-groups-manager.php:75
+#: includes/classes/editor.php:1477 includes/classes/user-role-editor.php:571
+#: includes/classes/user-role-editor.php:602
+msgid "User Role Editor"
+msgstr "User Role Editor"
+
+#: includes/classes/role-view.php:212 includes/classes/role-view.php:223
+msgid "Role name (ID): "
+msgstr "権限グループ名 (ID): "
+
+#: includes/classes/editor.php:1516
+msgid "Error: wrong request"
+msgstr "エラー: 誤ったリクエスト"
+
+#: includes/classes/editor.php:1547
+msgid "Contributor"
+msgstr "寄稿者"
+
+#: includes/classes/editor.php:1548
+msgid "Subscriber"
+msgstr "購読者"
+
+#: includes/classes/editor.php:1343
+msgid "This role does not exist - "
+msgstr "この権限グループは存在しません - "
+
+#: includes/classes/editor.php:1550
+msgid "Switch themes"
+msgstr "テーマの切り替え"
+
+#: includes/classes/editor.php:1145
+msgid "Role %s does not exists"
+msgstr "権限グループ「%s」は存在しません"
+
+#: includes/classes/editor.php:1552
+msgid "Activate plugins"
+msgstr "プラグインを有効化"
+
+#: includes/classes/editor.php:1569
+msgid "Level 10"
+msgstr "レベル 10"
+
+#: includes/classes/editor.php:1570
+msgid "Level 9"
+msgstr "レベル 9"
+
+#: includes/classes/editor.php:1571
+msgid "Level 8"
+msgstr "レベル 8"
+
+#: includes/classes/editor.php:1572
+msgid "Level 7"
+msgstr "レベル 7"
+
+#: includes/classes/editor.php:1573
+msgid "Level 6"
+msgstr "レベル 6"
+
+#: includes/classes/editor.php:1574
+msgid "Level 5"
+msgstr "レベル 5"
+
+#: includes/classes/editor.php:1575
+msgid "Level 4"
+msgstr "レベル 4"
+
+#: includes/classes/editor.php:1576
+msgid "Level 3"
+msgstr "レベル 3"
+
+#: includes/classes/editor.php:1577
+msgid "Level 2"
+msgstr "レベル 2"
+
+#: includes/classes/editor.php:1578
+msgid "Level 1"
+msgstr "レベル 1"
+
+#: includes/classes/editor.php:1579
+msgid "Level 0"
+msgstr "レベル 0"
+
+#: includes/classes/editor.php:1595
+msgid "Delete users"
+msgstr "ユーザー削除"
+
+#: includes/classes/editor.php:1596
+msgid "Create users"
+msgstr "ユーザー作成"
+
+#: includes/classes/editor.php:1600
+msgid "Delete plugins"
+msgstr "プラグインの削除"
+
+#: includes/classes/editor.php:1606
+msgid "Remove users"
+msgstr "ユーザーの削除"
+
+#: includes/classes/editor.php:1607
+msgid "Add users"
+msgstr "ユーザーの追加"
+
+#: includes/classes/editor.php:237
+msgid "does not exist"
+msgstr "存在しません"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.role-editor.com"
+msgstr "https://www.role-editor.com"
+
+#: includes/classes/user-view.php:190
+msgid "Other Roles:"
+msgstr "その他の権限グループ:"
+
+#: includes/classes/user-view.php:181
+msgid "bbPress Role:"
+msgstr "bbPress 権限グループ:"
+
+#: includes/classes/user-view.php:175
+msgid "Primary Role:"
+msgstr "主な権限グループ:"
+
+#: includes/classes/user-view.php:137
+msgid "Change capabilities for user"
+msgstr "ユーザーの権限を変更"
+
+#: includes/classes/view.php:333
+msgid "Quick filter:"
+msgstr "クイックフィルター:"
+
+#: includes/classes/user-role-editor.php:762
+msgid "Default Role"
+msgstr "デフォルト権限グループ"
+
+#. Author of the plugin
+msgid "Vladimir Garagulya"
+msgstr "Vladimir Garagulya"
+
+#: includes/classes/user-role-editor.php:757
+msgid "Delete Role"
+msgstr "権限グループの削除"
+
+#: includes/classes/user-role-editor.php:759
+msgid "Add Capability"
+msgstr "権限の追加"
+
+#: includes/classes/user-role-editor.php:760
+#: includes/classes/user-role-editor.php:764
+msgid "Delete Capability"
+msgstr "権限の削除"
+
+#: includes/classes/user-role-editor.php:761
+#: includes/classes/user-role-editor.php:801
+msgid "Continue?"
+msgstr "続行しますか ?"
+
+#: includes/classes/editor.php:1582
+msgid "Publish pages"
+msgstr "ページの公開"
+
+#: includes/classes/editor.php:1583
+msgid "Delete pages"
+msgstr "ページの削除"
+
+#: includes/classes/editor.php:1584
+msgid "Delete others pages"
+msgstr "その他のページの削除"
+
+#: includes/classes/editor.php:1603
+msgid "Install themes"
+msgstr "テーマのインストール"
+
+#: includes/classes/editor.php:1602
+msgid "Update themes"
+msgstr "テーマの更新"
+
+#: includes/classes/editor.php:1604
+msgid "Update core"
+msgstr "コアの更新"
+
+#: includes/classes/role-view.php:112
+msgid "Delete All Unused Roles"
+msgstr "未使用の権限グループをすべて削除"
+
+#: includes/classes/user-role-editor.php:295
+msgid "No rights"
+msgstr "権限なし"
+
+#: includes/classes/user-other-roles.php:124
+#: includes/classes/user-other-roles.php:259
+msgid "Other Roles"
+msgstr "他の権限グループ"
+
+#: includes/classes/user-role-editor.php:549 includes/settings-template.php:26
+msgid "Additional Modules"
+msgstr "追加モジュール"
+
+#: includes/classes/user-role-editor.php:555 includes/settings-template.php:31
+msgid "Default Roles"
+msgstr "デフォルト権限グループ"
+
+#: includes/classes/user-role-editor.php:751
+#: includes/classes/user-role-editor.php:756
+msgid "Rename Role"
+msgstr "権限グループ名変更"
+
+#: includes/classes/lib.php:384
+msgid "Author's website"
+msgstr "投稿者のサイト"
+
+#: includes/classes/lib.php:385
+msgid "Plugin webpage"
+msgstr "プラグインのページ"
+
+#: includes/classes/lib.php:386
+msgid "Plugin download"
+msgstr "プラグインのダウンロード"
+
+#: includes/classes/editor.php:1610
+msgid "Delete themes"
+msgstr "テーマの削除"
+
+#: includes/classes/editor.php:1599
+msgid "Update plugins"
+msgstr "プラグインの更新"
+
+#: includes/classes/editor.php:1601
+msgid "Install plugins"
+msgstr "プラグインのインストール"
+
+#: includes/classes/editor.php:1559
+msgid "Manage links"
+msgstr "リンク管理"
+
+#: includes/classes/role-view.php:257
+msgid "Capability name (ID): "
+msgstr "権限名 (ID):"
+
+#: includes/classes/editor.php:1586
+msgid "Delete posts"
+msgstr "投稿の削除"
+
+#: includes/classes/editor.php:1585
+msgid "Delete published pages"
+msgstr "公開ページの削除"
+
+#: includes/classes/editor.php:1589
+msgid "Delete private posts"
+msgstr "プライベート投稿の削除"
+
+#: includes/classes/role-view.php:396 includes/classes/tools.php:30
+msgid "Apply to All Sites"
+msgstr "すべてのサイトに適用"
+
+#: includes/classes/user-role-editor.php:752
+msgid " Role name (ID) can not be empty!"
+msgstr "権限グループ名 (ID) を空にすることはできません。"
+
+#: includes/classes/capability.php:106
+msgid "Capability %s exists already"
+msgstr "権限「%s」はすでに存在しています"
+
+#: includes/classes/editor.php:1566
+msgid "Publish posts"
+msgstr "投稿の公開"
+
+#: includes/classes/editor.php:1592
+msgid "Delete private pages"
+msgstr "プライベートページの削除"
+
+#: includes/classes/editor.php:1557
+msgid "Moderate comments"
+msgstr "コメントのモデレート"
+
+#: includes/classes/editor.php:1594
+msgid "Read private pages"
+msgstr "プライペートページの表示"
+
+#: includes/classes/editor.php:1605
+msgid "List users"
+msgstr "ユーザー一覧の表示"
+
+#: includes/classes/capability.php:213
+msgid "Capability %s was removed successfully"
+msgstr "権限「%s」が正常に削除されました。"
+
+#: includes/classes/user-role-editor.php:293
+msgid "Change role for users without role"
+msgstr "権限のないユーザーの権限を変更する"
+
+#. Description of the plugin
+msgid "Change/add/delete WordPress user roles and capabilities."
+msgstr "WordPressのユーザーの役割と権限を変更・追加・削除"
+
+#: includes/classes/editor.php:1587
+msgid "Delete others posts"
+msgstr "その他の投稿の削除"
+
+#: includes/classes/editor.php:1588
+msgid "Delete published posts"
+msgstr "公開済み投稿の削除"
+
+#: includes/classes/editor.php:978
+msgid "Error: Role ID is empty!"
+msgstr "エラー: 権限 ID が空です。"
+
+#: includes/classes/user-view.php:71
+msgid "Network Super Admin"
+msgstr "特権管理者"
+
+#: includes/classes/user-role-editor.php:749
+msgid "Please confirm permissions update"
+msgstr "権限の更新を確認してください"
+
+#: includes/classes/editor.php:1608
+msgid "Promote users"
+msgstr "ユーザーの昇格"
+
+#: includes/classes/user-other-roles.php:125
+msgid "Select additional roles for this user"
+msgstr "このユーザーの追加の権限を選択する"
+
+#: includes/classes/role-view.php:413
+msgid "Select Role and change its capabilities:"
+msgstr "役割を選択し、権限を変更:"
+
+#: includes/classes/role-view.php:369 includes/classes/user-view.php:154
+msgid "Show capabilities in human readable form"
+msgstr "各権限を概説で表示する"
+
+#: includes/classes/screen-help.php:18 includes/settings-template.php:70
+msgid "Show capabilities in the human readable form"
+msgstr "各権限を概説で表示する"
+
+#: includes/classes/role-view.php:379 includes/classes/screen-help.php:21
+#: includes/classes/user-view.php:164 includes/settings-template.php:78
+msgid "Show deprecated capabilities"
+msgstr "非推奨の権限を表示"
+
+#: includes/classes/user-role-editor.php:368
+#: includes/classes/user-role-editor.php:370
+msgid "You do not have permission to edit this user."
+msgstr "このユーザーを編集する権限がありません。"
+
+#: includes/settings-template.php:207
+msgid "Allow non super administrators to create, edit, and delete users"
+msgstr "特権管理者以外がユーザーの作成・編集・削除することを許可"
+
+#: includes/classes/role-view.php:214 includes/classes/role-view.php:225
+msgid "Display Role Name: "
+msgstr "表示する権限名:"
+
+#: includes/classes/role-view.php:216
+msgid "Make copy of: "
+msgstr "コピー元: "
+
+#: includes/classes/role-view.php:232
+msgid "Select Role:"
+msgstr "権限を選択:"
+
+#: includes/classes/editor.php:899
+msgid "Roles are updated for all network"
+msgstr "すべてのネットワークの権限を更新しました"
+
+#: includes/classes/editor.php:906
+msgid "User capabilities are updated successfully"
+msgstr "ユーザー権限を更新しました"
+
+#: includes/classes/editor.php:897
+msgid "Role is updated successfully"
+msgstr "権限を更新しました"
+
+#: includes/classes/editor.php:1591
+msgid "Read private posts"
+msgstr "プライベート投稿の表示"
+
+#: includes/classes/editor.php:1292
+msgid "Role %s is deleted successfully"
+msgstr "権限 %s を削除しました"
+
+#: includes/classes/editor.php:1053
+msgid "Role %s is created successfully"
+msgstr "権限 %s が作成しました"
+
+#: includes/classes/editor.php:1158
+msgid "Role %s is renamed to %s successfully"
+msgstr "権限 %s を %s にリネームしました"
+
+#: includes/classes/editor.php:1597
+msgid "Unfiltered upload"
+msgstr "フィルタリングされないアップロード"
+
+#: includes/classes/user-role-editor.php:296
+msgid "Provide new role"
+msgstr "新しい権限の提供"
+
+#: includes/classes/user-role-editor.php:763
+msgid "Set New Default Role"
+msgstr "新しいデフォルト権限を設定する"
+
+#: includes/classes/screen-help.php:15 includes/settings-template.php:61
+msgid "Show Administrator role at User Role Editor"
+msgstr "User Role Editor で管理者権限を表示する"
+
+#: includes/classes/user-role-editor.php:765
+msgid "Warning! Be careful - removing critical capability could crash some plugin or other custom code"
+msgstr "警告: 重要な権限の削除はプラグインやその他のカスタムコードを破損させる可能性がありますので、ご注意ください。"
+
+#: includes/classes/user-role-editor.php:622
+msgid "You do not have sufficient permissions to manage options for User Role Editor."
+msgstr "User Role Editor 設定を管理する権限がありません。"
+
+#: includes/classes/capability.php:80 includes/classes/capability.php:195
+#: includes/classes/editor.php:945 includes/classes/editor.php:1014
+#: includes/classes/editor.php:1065 includes/classes/editor.php:1126
+#: includes/classes/editor.php:1272 includes/classes/editor.php:1314
+#: includes/classes/user-role-editor.php:655
+msgid "Insufficient permissions to work with User Role Editor"
+msgstr "User Role Editor が動作するための権限が不十分です"
+
+#: includes/classes/screen-help.php:47 includes/settings-template.php:141
+msgid "Count users without role"
+msgstr "権限をもたないユーザーをカウント"
+
+#: includes/classes/role-view.php:383
+msgid "If checked, then apply action to ALL sites of this Network"
+msgstr "チェックすると、このネットワークすべてのサイトにアクションを適用"
+
+#: includes/classes/lib.php:383
+msgid "Version:"
+msgstr "バージョン:"
+
+#: includes/classes/capabilities-groups-manager.php:126
+msgid "Custom capabilities"
+msgstr "カスタム権限"
+
+#: includes/settings-template.php:175
+msgid "Other default roles for new registered user: "
+msgstr "新規登録ユーザーのその他のデフォルト権限グループ: "
+
+#: includes/classes/editor.php:1546
+msgid "Author"
+msgstr "投稿者"
+
+#: includes/classes/capability.php:104
+msgid "Capability %s was added successfully"
+msgstr "権限「%s」を追加しました"
+
+#: includes/classes/editor.php:908
+msgid "Error occurred during user update"
+msgstr "ユーザー更新の際にエラーが発生しました"
+
+#: includes/classes/screen-help.php:84
+msgid "Allow non super-administrators to create, edit and delete users"
+msgstr "特権管理者以外によるユーザーの作成・編集・削除を許可"
+
+#: includes/classes/editor.php:902
+msgid "Error occurred during role(s) update"
+msgstr "権限グループ更新の際にエラーが発生しました"
+
+#: includes/classes/editor.php:1611
+msgid "Export"
+msgstr "エクスポート"
+
+#: includes/classes/user-other-roles.php:222
+msgid "Denied: %s"
+msgstr "拒否されました: %s"
+
+#: includes/classes/user-other-roles.php:309
+msgid "Additional Capabilities"
+msgstr "追加機能"
+
+#: includes/classes/editor.php:1568
+msgid "Read"
+msgstr "読む"
+
+#: includes/classes/editor.php:1545
+msgid "Editor"
+msgstr "エディター"
+
+#: includes/classes/grant-roles.php:384 includes/classes/user-view.php:96
+msgid "&mdash; No role for this site &mdash;"
+msgstr "&mdash; このサイトでの権限なし &mdash;"
+
+#: includes/classes/editor.php:1388
+msgid "User Roles are restored to WordPress default values. "
+msgstr "ユーザー権限グループを WordPress のデフォルト値に復元しました。"
+
+#: includes/classes/editor.php:1290
+msgid "Unused roles are deleted successfully"
+msgstr "未使用の権限グループを削除しました"
+
+#: includes/classes/editor.php:987
+msgid "Error: Role ID must contain latin characters, digits, hyphens or underscore only!"
+msgstr "エラー: 権限グループ ID には半角英数字、ハイフン、アンダースコアのみ入力できます。"
+
+#: includes/classes/editor.php:1138
+msgid "Error: Empty role display name is not allowed."
+msgstr "エラー: 空の権限グループ表示名は許可されていません。"
+
+#: includes/classes/editor.php:1046
+msgid "Error is encountered during new role create operation"
+msgstr "新規権限グループ作成の際にエラーが発生しました"
+
+#: includes/classes/editor.php:1338
+msgid "Error encountered during default role change operation"
+msgstr "デフォルト権限グループ変更の際にエラーが発生しました"
+
+#: includes/classes/editor.php:1336
+msgid "Default role for new users is set to %s successfully"
+msgstr "新規ユーザーのデフォルト権限グループを「%s」に設定しました"
+
+#: includes/classes/user-role-editor.php:753
+msgid " Role name (ID) must contain latin characters, digits, hyphens or underscore only!"
+msgstr "権限グループ名 (ID) には半角英数字、ハイフン、アンダースコアのみを入力してください。"
+
+#: includes/classes/user-role-editor.php:754
+msgid " WordPress does not support numeric Role name (ID). Add latin characters to it."
+msgstr "WordPress は数値のみの権限グループ名 (ID) に対応していません。半角英字を追加してください。"
+
+#: includes/classes/editor.php:993
+msgid "Error: WordPress does not support numeric Role name (ID). Add latin characters to it."
+msgstr "エラー: WordPress は数値のみの権限グループ名 (ID) に対応していません。半角英字を追加してください。"
+
+#: includes/settings-template.php:168
+msgid "Primary default role: "
+msgstr "メインのデフォルト権限:"
+
+#: includes/classes/settings.php:120
+msgid "Default Roles are updated"
+msgstr "デフォルトの権限グループを更新しました"
+
+#: includes/classes/user-role-editor.php:767
+msgid " Capability name (ID) must contain latin characters, digits, hyphens or underscore only!"
+msgstr " 権限名 (ID) には半角英数字、ハイフン、アンダースコアのみを入力してください。"
+
+#: includes/classes/user-role-editor.php:766
+msgid " Capability name (ID) can not be empty!"
+msgstr " 権限名 (ID) を空にすることはできません。"
+
+#: includes/settings-template.php:16
+msgid "User Role Editor - Options"
+msgstr "User Role Editor - 設定"
+
+#: includes/classes/screen-help.php:12 includes/classes/screen-help.php:43
+#: includes/classes/screen-help.php:62 includes/classes/screen-help.php:81
+msgid "User Role Editor Options page help"
+msgstr "User Role Editor 設定のヘルプページ"
+
+#: includes/classes/settings.php:70 includes/classes/settings.php:90
+#: includes/classes/settings.php:140
+msgid "User Role Editor options are updated"
+msgstr "User Role Editor の設定を更新しました"
+
+#: includes/classes/editor.php:1556
+msgid "Manage options"
+msgstr "設定を管理"
+
+#: includes/classes/editor.php:1027
+msgid "Role %s exists already"
+msgstr "権限 %s はすでに存在しています"
+
+#: includes/classes/editor.php:1560
+msgid "Upload files"
+msgstr "ファイルをアップロード"
+
+#: includes/classes/editor.php:1558
+msgid "Manage categories"
+msgstr "カテゴリーを管理"
+
+#: includes/classes/capability.php:38
+msgid "Error: Capability name must contain latin characters and digits only!"
+msgstr "エラー: 権限名には半角英数字のみご入力ください。"
+
+#: includes/classes/editor.php:1554
+msgid "Edit users"
+msgstr "ユーザーを編集"
+
+#: includes/classes/screen-help.php:27 includes/settings-template.php:94
+msgid "Edit user capabilities"
+msgstr "ユーザー権限を編集"
+
+#: includes/classes/editor.php:1551
+msgid "Edit themes"
+msgstr "テーマを編集"
+
+#: includes/classes/editor.php:1609
+msgid "Edit theme options"
+msgstr "テーマオプションの編集"
+
+#: includes/classes/editor.php:1565
+msgid "Edit published posts"
+msgstr "公開済み投稿を編集"
+
+#: includes/classes/editor.php:1581
+msgid "Edit published pages"
+msgstr "公開済み固定ページを編集"
+
+#: includes/classes/editor.php:1590
+msgid "Edit private posts"
+msgstr "プライベート投稿を編集"
+
+#: includes/classes/editor.php:1593
+msgid "Edit private pages"
+msgstr "プライベートページを編集"
+
+#: includes/classes/editor.php:1563
+msgid "Edit posts"
+msgstr "投稿を編集"
+
+#: includes/classes/editor.php:1553
+msgid "Edit plugins"
+msgstr "プラグインを編集"
+
+#: includes/classes/editor.php:1567
+msgid "Edit pages"
+msgstr "ページを編集"
+
+#: includes/classes/editor.php:1564
+msgid "Edit others posts"
+msgstr "他ユーザーの投稿を編集"
+
+#: includes/classes/editor.php:1580
+msgid "Edit others pages"
+msgstr "他のユーザーの固定ページを編集"
+
+#: includes/classes/editor.php:1555
+msgid "Edit files"
+msgstr "ファイルを編集"
+
+#: includes/classes/editor.php:1598
+msgid "Edit dashboard"
+msgstr "ダッシュボードを編集"
+
+#: includes/classes/lib.php:387 includes/classes/user-role-editor.php:520
+msgid "Changelog"
+msgstr "変更履歴"
+
+#: includes/classes/user-role-editor.php:750
+msgid "Add New Role"
+msgstr "新規権限グループを追加"
+
+#: includes/classes/user-role-editor.php:755
+msgid "Add Role"
+msgstr "権限グループを追加"

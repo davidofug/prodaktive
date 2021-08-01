@@ -1,0 +1,188 @@
+# Translation of Plugins - WordPress Importer - Stable (latest release) in Thai
+# This file is distributed under the same license as the Plugins - WordPress Importer - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-08-01 21:43:48+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: th\n"
+"Project-Id-Version: Plugins - WordPress Importer - Stable (latest release)\n"
+
+#: parsers/class-wxr-parser.php:43
+msgid "Details are shown above. The importer will now try again with a different parser..."
+msgstr "รายละเอียดที่แสดงข้างบน ตัวนำเข้าจะลองใหม่อีกครั้งตอนนี้ด้วยตัวแปลอื่น..."
+
+#: parsers/class-wxr-parser-simplexml.php:29
+#: parsers/class-wxr-parser-simplexml.php:37 parsers/class-wxr-parser.php:42
+msgid "There was an error when reading this WXR file"
+msgstr "มีข้อผิดพลาดเมื่อทำการอ่านไฟล์ WXR นี้"
+
+#: parsers/class-wxr-parser-regex.php:96 parsers/class-wxr-parser-xml.php:48
+#: parsers/class-wxr-parser-simplexml.php:41
+#: parsers/class-wxr-parser-simplexml.php:46
+msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr "เหมือนว่าสิ่งนี้ไม่ได้เป็นไฟล์ WXR เพราะเลขที่รุ่น WXR สูญหาย/ไม่ถูกต้อง"
+
+#: class-wp-import.php:106 class-wp-import.php:115 class-wp-import.php:166
+#: class-wp-import.php:170 class-wp-import.php:179
+msgid "Sorry, there has been an error."
+msgstr "ขออภัย, เกิดข้อผิดพลาดบางอย่าง"
+
+#: class-wp-import.php:107
+msgid "The file does not exist, please try again."
+msgstr "ไม่พบไฟล์ที่ต้องการ กรุณาลองใหม่อีกครั้ง"
+
+#: class-wp-import.php:150
+msgid "All done."
+msgstr "ทั้งหมดสำเร็จแล้ว"
+
+#: class-wp-import.php:151
+msgid "Remember to update the passwords and roles of imported users."
+msgstr "อย่าลืมอัปเดทรหัสผ่านและกำหนดบทบาทของผู้ใช้งานที่นำเข้ามา"
+
+#: class-wp-import.php:150
+msgid "Have fun!"
+msgstr "ขอให้มีความสุขกับการเขียนบล็อก"
+
+#: class-wp-import.php:187
+msgid "This WXR file (version %s) may not be supported by this version of the importer. Please consider updating."
+msgstr "ไฟล์ WXR นี้ (รุ่น %s) อาจจะไม่สนับสนุนโดยรุ่นนี้  โปรดพิจารณาการอัปเดต"
+
+#: class-wp-import.php:212
+msgid "Failed to import author %s. Their posts will be attributed to the current user."
+msgstr "ล้มเหลวในการนำเข้าผู้เขียน %s เรื่องของพวกเขาจะเป็นของผู้ใช้ปัจจุบัน"
+
+#: class-wp-import.php:238
+msgid "Assign Authors"
+msgstr "มอบหมายผู้เขียน"
+
+#: class-wp-import.php:241
+msgid "If a new user is created by WordPress, a new password will be randomly generated and the new user&#8217;s role will be set as %s. Manually changing the new user&#8217;s details will be necessary."
+msgstr "ถ้าผู้ใช้ใหม่ถูกสร้างโดยเวิร์ดเพรส  รหัสผ่านใหม่จะถูกสุ่มสร้างขึ้นและบทบาทผู้ใช้ใหม่จะถูกตั้งค่าเป็น %s การเปลี่ยนข้อมูลผู้ใช้ใหม่ด้วยตัวเอง จะเป็นสิ่งจำเป็น"
+
+#: class-wp-import.php:251
+msgid "Import Attachments"
+msgstr "นำเข้าไฟล์แนบ"
+
+#: class-wp-import.php:254
+msgid "Download and import file attachments"
+msgstr "ดาวน์โหลดและนำเข้าไฟล์แนบ"
+
+#: class-wp-import.php:258
+msgid "Submit"
+msgstr "ส่ง"
+
+#: class-wp-import.php:271
+msgid "Import author:"
+msgstr "นำเข้าชื่อผู้เขียน:"
+
+#: class-wp-import.php:286
+msgid "as a new user:"
+msgstr "เป็นสมาชิกใหม่:"
+
+#: class-wp-import.php:283
+msgid "or create new user with login name:"
+msgstr "หรือสร้างผู้ใช้ใหม่ด้วยชื่อผู้ใช้:"
+
+#: class-wp-import.php:296
+msgid "assign posts to an existing user:"
+msgstr "โอนเรื่องให้กับผู้ใช้งานที่มีอยู่:"
+
+#: class-wp-import.php:306
+msgid "- Select -"
+msgstr "- เลือก -"
+
+#: class-wp-import.php:298
+msgid "or assign posts to an existing user:"
+msgstr "หรือโอนเรื่องให้กับผู้ใช้ที่มีอยู่"
+
+#: class-wp-import.php:360
+msgid "Failed to create new user for %s. Their posts will be attributed to the current user."
+msgstr "ล้มเหลวในการสร้างผู้ใช้ใหม่สำหรับ %s  เรื่องของพวกเขาจะเป็นของผู้ใช้ปัจจุบัน"
+
+#: class-wp-import.php:457
+msgid "Failed to import post tag %s"
+msgstr "นำเข้าป้ายกำกับเรื่อง %s ล้มเหลว"
+
+#: class-wp-import.php:412
+msgid "Failed to import category %s"
+msgstr "นำเข้าหมวดหมู่ %s ล้มเหลว"
+
+#: class-wp-import.php:512 class-wp-import.php:738
+msgid "Failed to import %s %s"
+msgstr "นำเข้าข้อมูล %s %s ล้มเหลว"
+
+#: class-wp-import.php:605
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr "นำเข้าข้อมูล &#8220;%s&#8221; ล้มเหลว: ชนิดเรื่องไม่ถูกต้อง %s"
+
+#: class-wp-import.php:878
+msgid "Menu item skipped due to missing menu slug"
+msgstr "รายการเมนูถูกข้ามไปเนื่องจากไม่มีเมนู slug"
+
+#: class-wp-import.php:704
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr "นำเข้า %s &#8220;%s&#8221; ล้มเหลว"
+
+#: class-wp-import.php:642
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr "%s &#8220;%s&#8221; มีอยู่แล้ว"
+
+#: class-wp-import.php:885
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr "รายการเมนูถูกข้ามไปเนื่องจากเมนู slug ไม่ถูกต้อง: %s"
+
+#: class-wp-import.php:948
+msgid "Fetching attachments is not enabled"
+msgstr "ยังไม่เปิดใช้งานการดึงข้อมูลไฟล์แนบ"
+
+#: class-wp-import.php:961
+msgid "Invalid file type"
+msgstr "ชนิดไฟล์ไม่ถูกต้อง"
+
+#: class-wp-import.php:1047
+msgid "Remote server did not respond"
+msgstr "รีโมทเซิร์ฟเวอร์ไม่ตอบสนอง"
+
+#: class-wp-import.php:1065
+msgid "Remote file is too large, limit is %s"
+msgstr "ไฟล์รีโมทใหญ่เกินไป  ขนาดจำกัดคือ %s"
+
+#: class-wp-import.php:1054
+msgid "Zero size file downloaded"
+msgstr "ขนาดไฟล์ 0 ที่ดาวน์โหลดแล้ว"
+
+#: class-wp-import.php:1231
+msgid "A new version of this importer is available. Please update to version %s to ensure compatibility with newer export files."
+msgstr "มีรุ่นที่ใหม่กว่าของตัวนำเข้านี้ให้ใช้งานได้แล้ว. กรุณาอัปเดทไปเป็นรุ่น %s เพื่อให้แน่ใจว่าจะทำงานเข้ากันได้ไฟล์นำออกที่ใหม่กว่า"
+
+#: class-wp-import.php:1224
+msgid "Import WordPress"
+msgstr "นำเข้า เวิร์ดเพรส"
+
+#: class-wp-import.php:1246
+msgid "Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import the posts, pages, comments, custom fields, categories, and tags into this site."
+msgstr "สวัสดี  อัปโหลด ไฟล์เวิร์ดเพรส eXtended RSS (WXR) ของคุณ และเราจะนำเข้า เรื่อง หน้า ความเห็น ช่องปรับแต่ง หมวดหมู่ และป้ายกำกับมายังเว็บไซต์นี้"
+
+#: class-wp-import.php:1247
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr "เลือกไฟล์ WXR (.xml) ที่ต้องการอัปโหลด แล้วกดอัปโหลดไฟล์และนำเข้า"
+
+#: wordpress-importer.php:58
+msgid "Import <strong>posts, pages, comments, custom fields, categories, and tags</strong> from a WordPress export file."
+msgstr "นำเข้า <strong>เรื่อง หน้า ความเห็น ช่องปรับแต่ง หมวดหมู่ และป้ายกำกับ</strong> จากไฟล์นำออกเวิร์ดเพรส"
+
+#. Plugin Name of the plugin
+msgid "WordPress Importer"
+msgstr "ตัวนำเข้าเวิร์ดเพรส"
+
+#. Description of the plugin
+msgid "Import posts, pages, comments, custom fields, categories, tags and more from a WordPress export file."
+msgstr "นำเข้าเรื่อง หน้า ความคิดเห็น ช่องปรับแต่ง หมวดหมู่ ป้ายกำกับ และอื่น ๆ จากไฟล์นำออกเวิร์ดเพรส"
+
+#. Author of the plugin
+msgid "wordpressdotorg"
+msgstr "wordpressdotorg"
