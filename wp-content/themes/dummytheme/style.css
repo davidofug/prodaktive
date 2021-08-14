@@ -1,0 +1,11 @@
+/**
+* Theme Name: Dummy Theme
+* Author: David
+* Author URI: https://davidofug.com
+* Version: 0.0.0.1
+**/
+html,body {
+  margin: 0;
+  padding: 0;
+  background: #f7f7f7;
+}
